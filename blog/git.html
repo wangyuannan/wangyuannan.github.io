@@ -7,7 +7,7 @@
     <meta name="description" content="Vuepress">
     
     
-    <link rel="preload" href="/assets/css/0.styles.5c29a8e3.css" as="style"><link rel="preload" href="/assets/js/app.accdedc2.js" as="script"><link rel="preload" href="/assets/js/2.1132826d.js" as="script"><link rel="preload" href="/assets/js/8.f91f9ff4.js" as="script"><link rel="prefetch" href="/assets/js/3.2d62bf61.js"><link rel="prefetch" href="/assets/js/4.aad4a508.js"><link rel="prefetch" href="/assets/js/5.34414545.js"><link rel="prefetch" href="/assets/js/6.74f2fb8e.js"><link rel="prefetch" href="/assets/js/7.195d28fd.js"><link rel="prefetch" href="/assets/js/9.f68989a5.js">
+    <link rel="preload" href="/assets/css/0.styles.5c29a8e3.css" as="style"><link rel="preload" href="/assets/js/app.ad0ef7ce.js" as="script"><link rel="preload" href="/assets/js/2.1132826d.js" as="script"><link rel="preload" href="/assets/js/8.ab2c09fa.js" as="script"><link rel="prefetch" href="/assets/js/3.2d62bf61.js"><link rel="prefetch" href="/assets/js/4.aad4a508.js"><link rel="prefetch" href="/assets/js/5.7ad39865.js"><link rel="prefetch" href="/assets/js/6.b1e57eed.js"><link rel="prefetch" href="/assets/js/7.66bb18e4.js"><link rel="prefetch" href="/assets/js/9.f68989a5.js">
     <link rel="stylesheet" href="/assets/css/0.styles.5c29a8e3.css">
   </head>
   <body>
@@ -17,8 +17,11 @@
     My GitHub
     <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav>  <ul class="sidebar-links"><li><a href="/blog/" class="sidebar-link">/blog/</a></li><li><a href="/blog/CreateBlog.html" class="sidebar-link">VuePress + GitHub</a></li><li><a href="/blog/git.html" class="active sidebar-link">Git</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="git"><a href="#git" class="header-anchor">#</a> Git</h1> <h4 id="查分支"><a href="#查分支" class="header-anchor">#</a> 查分支</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git branch -v
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="切换分支"><a href="#切换分支" class="header-anchor">#</a> 切换分支</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git checkout 分支
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="合并分支"><a href="#合并分支" class="header-anchor">#</a> 合并分支</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git merge 分支
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="查看是否已合并过某分支"><a href="#查看是否已合并过某分支" class="header-anchor">#</a> 查看是否已合并过某分支</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git log 分支
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="合并分支"><a href="#合并分支" class="header-anchor">#</a> 合并分支</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code># 合并整个分支 
+git merge 分支
+# 合并某次提交
+git cherry-pick SHA值
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><h4 id="查看是否已合并过某分支"><a href="#查看是否已合并过某分支" class="header-anchor">#</a> 查看是否已合并过某分支</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git log 分支
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="往前滚动一次提交"><a href="#往前滚动一次提交" class="header-anchor">#</a> 往前滚动一次提交</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>git reset --hard HEAD~1
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h4 id="取消合并"><a href="#取消合并" class="header-anchor">#</a> 取消合并</h4> <div class="language- line-numbers-mode"><pre class="language-text"><code>提交之前取消
 git merge --abort
@@ -29,6 +32,6 @@ git merge --abort
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/blog/CreateBlog.html" class="prev">VuePress + GitHub</a></span> <!----></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/assets/js/app.accdedc2.js" defer></script><script src="/assets/js/2.1132826d.js" defer></script><script src="/assets/js/8.f91f9ff4.js" defer></script>
+    <script src="/assets/js/app.ad0ef7ce.js" defer></script><script src="/assets/js/2.1132826d.js" defer></script><script src="/assets/js/8.ab2c09fa.js" defer></script>
   </body>
 </html>
